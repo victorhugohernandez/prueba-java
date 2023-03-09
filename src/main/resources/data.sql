@@ -1,0 +1,3 @@
+INSERT INTO PERSONA (TIPO, DIRECCION, EDAD, GENERO, IDENTIFICACION, NOMBRE, TELEFONO, CONTRASENIA, ESTADO, ID_CLIENTE) VALUES ('C', 'Otavalo sn y principal', 30, 'M', 'INE', 'Jose Lema', '098254785', '1234', TRUE, 1)
+INSERT INTO CUENTA (NUMERO_CUENTA, ESTADO, ID_CLIENTE , TIPO_CUENTA , SALDO_INICIAL ) VALUES (9999, TRUE, 1, 'Ahorro', 0.0)
+insert into movimiento (fecha, tipo_movimiento, valor, saldo, numero_cuenta) values (CURRENT_TIMESTAMP(), 'Ahorro', 500, 500, 9999)
